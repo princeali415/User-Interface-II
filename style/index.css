@@ -1,8 +1,8 @@
 /* Add CSS styling here */
 
 body {
-/*background-color: #ffffff;
-background-image: url("redox-01.png");*/
+margin: 0px;
+padding: 0px;
 font-family: 'Work Sans', sans-serif;
 }
 
@@ -13,27 +13,13 @@ h1 {
 
 /* ------ boxes around sections so you can see where everything is ------ */ 
 
-div {
-    border: 1px solid black
-}
-
-section {
-    border: 2px solid red;
-}
-
-h1, h2, h3, h4, h5 {
-    border: 1px solid black;
-}
-
-header, nav, footer{
-    border: 2px solid rgb(121, 119, 5)
-}
-
 /* ---------------------------Header-------------------------------*/
 
 header {
     padding: 4%;
     text-align: center;
+    background-color: #2b54fc;
+    color: white;
 }
 
 nav {
@@ -47,8 +33,14 @@ nav {
     padding-right: 5%;
     padding-bottom: 1%;
     padding-top: 1%;
+    border: 1px solid white;
 }
-
+.nav-container:hover {
+    box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 14px 1px rgba(0, 0, 0, 0.15);
+    background-color:rgb(255, 255, 255);
+    color: black;
+    text-transform: uppercase;
+}
 
 
 
@@ -77,12 +69,12 @@ nav {
 .section-2 {
     display: flex;
     margin-top: 4%;
-    margin-bottom: 4%;
-    justify-content: space-around;
+    padding-bottom: 2%;
+    justify-content: space-between;
 }
 
 .project {
-    width: 20vw;
+    display: flex;
 }
 
 
@@ -92,6 +84,8 @@ nav {
 
 .txt-container {
     text-align: center;
+    background-color: #2b54fc;
+    color: white;
 }
 
 
@@ -99,6 +93,7 @@ nav {
 
 footer {
     text-align: center;
+    background-color: #e2e1e6;
 }
 
  
@@ -112,4 +107,37 @@ footer {
 .icons {
     display: flex;
     justify-content: center;
+}
+
+i:hover {
+    box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 14px 1px rgba(0, 0, 0, 0.15);
+    background-color: rgba(255, 103, 68, 0.91);
+    color: white;
+    text-transform: uppercase;
+}
+
+.contact {
+    display: flex;
+    justify-content: center;
+}
+
+#contact-me-button {
+    padding: 1em;
+    border: 2px solid rgba(255, 103, 68, 0.91);
+    border-radius: 50px;
+    background: white;
+    color: rgba(255, 103, 68, 0.91);;
+    
+}
+
+#contact-me-button:hover {
+    box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 14px 1px rgba(0, 0, 0, 0.15);
+    background-color: rgba(255, 103, 68, 0.91);
+    color: white;
+    text-transform: uppercase;
+}
+
+.button-container {
+    margin-top: 8%;
+    margin-bottom: 5%;
 }
