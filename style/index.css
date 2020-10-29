@@ -1,8 +1,8 @@
 /* Add CSS styling here */
 
 body {
-background-color: #ffffff;
-background-image: url("redox-01.png");
+/*background-color: #ffffff;
+background-image: url("redox-01.png");*/
 font-family: 'Work Sans', sans-serif;
 }
 
@@ -14,7 +14,7 @@ h1 {
 /* ------ boxes around sections so you can see where everything is ------ */ 
 
 div {
-    border: 3px solid black
+    border: 1px solid black
 }
 
 section {
@@ -32,10 +32,84 @@ header, nav, footer{
 /* ---------------------------Header-------------------------------*/
 
 header {
-    padding: 10%;
+    padding: 4%;
     text-align: center;
 }
 
 nav {
     padding: 5%;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-container {
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 1%;
+    padding-top: 1%;
+}
+
+
+
+
+/* ---------------------------section 1-------------------------------*/
+
+
+.img-1-container {
+    display: flex;
+    justify-content: space-evenly;
+    height: 48vh;
+}
+
+
+
+
+
+
+
+
+
+
+/* ---------------------------Section 2-------------------------------*/
+
+
+
+.section-2 {
+    display: flex;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    justify-content: space-around;
+}
+
+.project {
+    width: 20vw;
+}
+
+
+.section-2 img {
+    width: -webkit-fill-available;
+}
+
+.txt-container {
+    text-align: center;
+}
+
+
+/* ---------------------------footer-------------------------------*/
+
+footer {
+    text-align: center;
+}
+
+ 
+.fa, .fab{
+    font-size: 2em;
+    padding: 1em 1.4em;
+    color: #8a8a8a;
+    font-weight: 400;    
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
 }
