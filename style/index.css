@@ -1,1 +1,30 @@
 /* Add CSS styling here */
+
+body {
+background-color: #ffffff;
+background-image: url("redox-01.png");
+font-family: 'Work Sans', sans-serif;
+}
+
+h1 {
+    font-family: 'Crimson Text', serif;
+    letter-spacing: 3px;
+}
+
+/* ------ boxes around sections so you can see where everything is ------ */ 
+
+div {
+    border: 3px solid black
+}
+
+section {
+    border: 2px solid red;
+}
+
+h1, h2, h3, h4, h5 {
+    border: 1px solid black;
+}
+
+header, nav, footer{
+    border: 2px solid rgb(121, 119, 5)
+}
