@@ -1,17 +1,50 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
 /* Add CSS styling here */
 
 body {
 margin: 0px;
 padding: 0px;
 font-family: 'Work Sans', sans-serif;
+width: -webkit-fill-available;
+letter-spacing: 1.5px;
+scroll-behavior: smooth;
 }
 
 h1 {
     font-family: 'Crimson Text', serif;
     letter-spacing: 3px;
+    font-size: 45px;
+}
+h2 {
+    font-family: 'Crimson Text', serif;
+    font-size: 36px;
+}
+p{
+    line-height: 3em;
+    
 }
 
-/* ------ boxes around sections so you can see where everything is ------ */ 
+
 
 /* ---------------------------Header-------------------------------*/
 
@@ -20,6 +53,11 @@ header {
     text-align: center;
     background-color: #2b54fc;
     color: white;
+}
+
+header p {
+    margin-left: 2%;
+    margin-right: 2%;
 }
 
 nav {
@@ -34,6 +72,8 @@ nav {
     padding-bottom: 1%;
     padding-top: 1%;
     border: 1px solid white;
+    cursor: pointer;
+    color: white;
 }
 .nav-container:hover {
     box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 14px 1px rgba(0, 0, 0, 0.15);
@@ -41,7 +81,6 @@ nav {
     color: black;
     text-transform: uppercase;
 }
-
 
 
 /* ---------------------------section 1-------------------------------*/
