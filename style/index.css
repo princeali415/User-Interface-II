@@ -124,6 +124,8 @@ nav {
     margin-top: 4%;
     padding-bottom: 2%;
     justify-content: space-between;
+    background: #2b55fc;
+    padding-top: 2%;
 }
 
 .project {
