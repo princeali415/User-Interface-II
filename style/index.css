@@ -21,11 +21,17 @@ time, mark, audio, video {
 
 /* Add CSS styling here */
 
+* {
+    max-width: 100%;
+    box-sizing: border-box;    /* add padding to div but div wont get bigger*/
+    margin: 0;
+    padding: 0;
+}
+
 body {
 margin: 0px;
 padding: 0px;
 font-family: 'Work Sans', sans-serif;
-width: fit-content;
 letter-spacing: 1.5px;
 scroll-behavior: smooth;
 }
@@ -111,12 +117,12 @@ nav {
 }
 
 .project {
-    display: flex;
+    padding-right: 2%;
 }
 
 
 .section-2 img {
-    width: -webkit-fill-available;
+    height: min-content;
 }
 
 .txt-container {
