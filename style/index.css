@@ -90,10 +90,20 @@ nav {
 /* ---------------------------section 1-------------------------------*/
 
 
+.section-1 {
+    margin-top: 6%;
+}
+
+
+
+
+
 .img-1-container {
-    display: flex;
-    justify-content: space-evenly;
-    height: 48vh;
+    width: 100%;
+    height: 45vh;
+    background-image: url('section1 image.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
 }
 
 
