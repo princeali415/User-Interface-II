@@ -133,6 +133,11 @@ nav {
 
 .section-2 img {
     height: min-content;
+    display: flex;
+}
+
+#section-2-text-container{
+    display: flex;
 }
 
 .txt-container {
@@ -204,11 +209,11 @@ i:hover {
     }
 
     h1 {
-        font-size: 5rem;
+        font-size: 3rem;
     }
 
     h2 {
-        font-size: 3rem;
+        font-size: 2rem;
     }
 
     p {
@@ -239,6 +244,35 @@ i:hover {
 
     .section-1 {
         margin: 4%;
+    }
+
+    .project-images-2 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+
+    .section-2{
+        display: flex;
+        margin-top: 4%;
+        padding-bottom: 2%;
+        justify-content: center;
+        flex-wrap: wrap;
+
+    }
+    .project {
+        padding: 4%;
+        display: flex;
+        flex-wrap: wrsp;
+        display: flex;
+        align-self: ;
+        justify-content: center;
+    }
+
+    .section-2 img {
+        height: min-content;
+        display: flex;
     }
 
 }
